@@ -34,5 +34,19 @@ namespace ListaDeExercicios02
             Exercicio03 exercicio03 = new Exercicio03();
             exercicio03.Show();
         }
+
+        private void BTNEXERCICIO04_Click(object sender, EventArgs e)
+        {
+            Exercicio04 exercicio04 = new Exercicio04();
+            exercicio04.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Exercicio05 exercicio05 = new Exercicio05();
+            exercicio05.Show();
+        }
+
+
     }
 }
