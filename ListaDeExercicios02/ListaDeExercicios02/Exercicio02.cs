@@ -23,7 +23,7 @@ namespace ListaDeExercicios02
             ArmazenarNumero();
             if (numero < 0)
             {
-                MessageBox.Show("Parabéns, seu número é negativo!");
+                MessageBox.Show("Parabéns, seu número é negativo! :D");
             }
 
             else if (numero > 0)
