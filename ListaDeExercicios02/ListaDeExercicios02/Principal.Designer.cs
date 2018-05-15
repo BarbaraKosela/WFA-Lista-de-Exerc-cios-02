@@ -33,6 +33,7 @@
             this.BTNEXERCICIO03 = new System.Windows.Forms.Button();
             this.BTNEXERCICIO04 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.BTNEXERCICIO06 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BTNEXERCICIO01
@@ -90,11 +91,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // BTNEXERCICIO06
+            // 
+            this.BTNEXERCICIO06.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNEXERCICIO06.Location = new System.Drawing.Point(12, 362);
+            this.BTNEXERCICIO06.Name = "BTNEXERCICIO06";
+            this.BTNEXERCICIO06.Size = new System.Drawing.Size(153, 64);
+            this.BTNEXERCICIO06.TabIndex = 5;
+            this.BTNEXERCICIO06.Text = "EXERCÍCIO 06";
+            this.BTNEXERCICIO06.UseVisualStyleBackColor = true;
+            this.BTNEXERCICIO06.Click += new System.EventHandler(this.BTNEXERCICIO06_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 428);
+            this.ClientSize = new System.Drawing.Size(506, 437);
+            this.Controls.Add(this.BTNEXERCICIO06);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BTNEXERCICIO04);
             this.Controls.Add(this.BTNEXERCICIO03);
@@ -114,6 +127,7 @@
         private System.Windows.Forms.Button BTNEXERCICIO03;
         private System.Windows.Forms.Button BTNEXERCICIO04;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BTNEXERCICIO06;
     }
 }
 

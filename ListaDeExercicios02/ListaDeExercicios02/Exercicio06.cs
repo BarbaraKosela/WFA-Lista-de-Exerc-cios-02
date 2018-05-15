@@ -10,41 +10,42 @@ using System.Windows.Forms;
 
 namespace ListaDeExercicios02
 {
-    public partial class Exercicio05 : Form
+    public partial class Exercicio06 : Form
     {
         int numero = 0;
-        public Exercicio05()
+        public Exercicio06()
         {
             InitializeComponent();
         }
 
-        private void BTNIMPAR_Click(object sender, EventArgs e)
+        private void BTNDIFERENTE_Click(object sender, EventArgs e)
         {
-            ArmazenarNumero();
-            if (numero % 2 != 0)
+            ArmazenarDados();
+            if (numero == 1)
             {
-                MessageBox.Show("Parabéns, seu número é ímpar! :D");
+                MessageBox.Show("Seu número é igual a 1");
             }
 
-            else if (numero % 2 == 0)
+            else if (numero != 1)
             {
-                MessageBox.Show("Ops! Seu número é par");
+                MessageBox.Show("Seu número é diferente de 1");
             }
+
+            
         }
 
-        private void ArmazenarNumero()
+        private void ArmazenarDados()
         {
             try
             {
                 numero = Convert.ToInt32(TXTNUMERO.Text);
+
             }
 
             catch
             {
-                MessageBox.Show("Por favor, digite um número real");
-                
+                MessageBox.Show("Por favor, digite um número que seja real");
             }
         }
-        }
     }
-
+}
