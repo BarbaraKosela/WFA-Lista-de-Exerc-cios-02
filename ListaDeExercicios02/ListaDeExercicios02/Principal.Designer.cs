@@ -34,6 +34,7 @@
             this.BTNEXERCICIO04 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.BTNEXERCICIO06 = new System.Windows.Forms.Button();
+            this.BTNEXERCICIO07 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BTNEXERCICIO01
@@ -102,11 +103,23 @@
             this.BTNEXERCICIO06.UseVisualStyleBackColor = true;
             this.BTNEXERCICIO06.Click += new System.EventHandler(this.BTNEXERCICIO06_Click);
             // 
+            // BTNEXERCICIO07
+            // 
+            this.BTNEXERCICIO07.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNEXERCICIO07.Location = new System.Drawing.Point(171, 12);
+            this.BTNEXERCICIO07.Name = "BTNEXERCICIO07";
+            this.BTNEXERCICIO07.Size = new System.Drawing.Size(153, 64);
+            this.BTNEXERCICIO07.TabIndex = 6;
+            this.BTNEXERCICIO07.Text = "EXERCÍCIO 07";
+            this.BTNEXERCICIO07.UseVisualStyleBackColor = true;
+            this.BTNEXERCICIO07.Click += new System.EventHandler(this.BTNEXERCICIO07_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 437);
+            this.Controls.Add(this.BTNEXERCICIO07);
             this.Controls.Add(this.BTNEXERCICIO06);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BTNEXERCICIO04);
@@ -128,6 +141,7 @@
         private System.Windows.Forms.Button BTNEXERCICIO04;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BTNEXERCICIO06;
+        private System.Windows.Forms.Button BTNEXERCICIO07;
     }
 }
 

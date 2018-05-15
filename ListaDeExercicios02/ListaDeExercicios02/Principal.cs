@@ -53,6 +53,12 @@ namespace ListaDeExercicios02
             exercicio06.Show();
         }
 
+        private void BTNEXERCICIO07_Click(object sender, EventArgs e)
+        {
+            Exercicio07 exercicio07 = new Exercicio07();
+            exercicio07.Show();
+        }
+
 
     }
 }

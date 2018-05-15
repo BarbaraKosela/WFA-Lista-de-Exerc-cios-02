@@ -70,6 +70,7 @@
             this.Controls.Add(this.TXTNUMERO);
             this.Controls.Add(this.label1);
             this.Name = "Exercicio06";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercicio06";
             this.ResumeLayout(false);
             this.PerformLayout();
