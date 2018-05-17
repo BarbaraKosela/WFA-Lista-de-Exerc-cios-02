@@ -56,6 +56,11 @@ namespace ListaDeExercicios02
             {
                 DiferenteUm();
             }
+
+            else
+            {
+                MessageBox.Show("Favor escolher uma das opções acima");
+            }
         }
 
         private void ArmazenarDados()
