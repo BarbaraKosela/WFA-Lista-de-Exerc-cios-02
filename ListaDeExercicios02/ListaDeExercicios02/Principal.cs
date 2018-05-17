@@ -95,5 +95,11 @@ namespace ListaDeExercicios02
             exercicio13.Show();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Exercicio14 exercicio14 = new Exercicio14();
+            exercicio14.Show();
+        }
+
     }
 }
